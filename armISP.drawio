@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="MhFMXdvPlKG8YVjF3d9O">
+    <mxGraphModel dx="770" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="raw" vertex="1">
+          <mxGeometry height="60" width="90" x="70" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="229.5" as="sourcePoint" />
+            <mxPoint x="210" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="解析ebd获取曝光、增益、saturation value" vertex="1">
+          <mxGeometry height="50" width="110" x="210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="229.5" as="sourcePoint" />
+            <mxPoint x="380" y="229.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="计算iridix gain/ivariance" vertex="1">
+          <mxGeometry height="50" width="100" x="380" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.2398" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="224.5" />
+            </Array>
+            <mxPoint x="480" y="224.5" as="sourcePoint" />
+            <mxPoint x="520" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="config/dynamic json配置文件" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="359.5" as="sourcePoint" />
+            <mxPoint x="250" y="359.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取blc/static wb/ccm/gammaFE；以及dynamic参数" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0556" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="360" />
+            </Array>
+            <mxPoint x="370" y="359.5" as="sourcePoint" />
+            <mxPoint x="520" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ArmISP" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="tfO3HI_qCLV42QsWL8jP-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="480" as="sourcePoint" />
+            <mxPoint x="630" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
