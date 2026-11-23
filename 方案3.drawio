@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="3uy7lGwrNXsj5LFCgfJ9">
-    <mxGraphModel dx="1694" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1127" dy="1789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,6 +81,9 @@
         </mxCell>
         <mxCell id="CGM8kwy6egZCydpniP-T-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;风险：如果发生掉帧，可能会导致wb统计信息帧和wbgain实施帧不是统一帧，发生错位；awb的统计信息不是非常明确，可能处理的信息不够&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="230" x="110" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="CGM8kwy6egZCydpniP-T-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="!!!如果高通在raw上乘了gain，同时在isppipeline中也乘了gain，该方案不可行。" vertex="1">
+          <mxGeometry height="110" width="230" x="110" y="630" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
